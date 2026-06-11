@@ -137,7 +137,7 @@ export function Portfolio() {
   }, [activeSection]);
   return (
     <div className="min-h-screen bg-[#182138] text-white  ">
-      <div className="grid grid grid-cols-1 md:grid-cols-2  p-20 h-screen ">
+      <div className="max-w-7xl mx-auto  grid  grid-cols-1  md:grid-cols-2  p-20 h-screen ">
         {/* Left section */}
         <div className=" sticky h-fit  ">
           <div className="intro">
